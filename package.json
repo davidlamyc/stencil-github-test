@@ -1,5 +1,12 @@
 {
-  "name": "stencil-github-test",
+  "name": "@davidlamyc/stencil-github-test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidlamyc/stencil-github-test"
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
